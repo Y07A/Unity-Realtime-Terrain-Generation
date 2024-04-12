@@ -10,9 +10,14 @@ public class FlyingCamera : MonoBehaviour
 	
 	private float mouseX, mouseY;
 	private float actualSpeed = 0f;
+
+	private Rigidbody rbody;
 	
-	private void Start()
+	private void OnEnable()
 	{
+		rbody = GetComponent<Rigidbody>();
+		rbody.isKinematic = false;
+		rbody.useGravity = false;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 	}
@@ -28,7 +33,7 @@ public class FlyingCamera : MonoBehaviour
 		}else{
 			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(Vector3.up * mouseX + Vector3.right * -mouseY ), Time.deltaTime * smoothAmount);
 		}
-		transform.position += transform.TransformDirection(new Vector3(Input.GetAxis("Horizontal")*actualSpeed, ((Input.GetKey(KeyCode.Space) ? 1f : 0f)+(Input.GetKey(KeyCode.LeftControl) ? -1f : 0f))*actualSpeed, Input.GetAxis("Vertical")*actualSpeed)*Time.deltaTime);
+		rbody.velocity = transform.TransformDirection(new Vector3(Input.GetAxis("Horizontal")*actualSpeed, ((Input.GetKey(KeyCode.Space) ? 1f : 0f)+(Input.GetKey(KeyCode.LeftControl) ? -1f : 0f))*actualSpeed, Input.GetAxis("Vertical")*actualSpeed));
 		
 	}
 }

@@ -16,10 +16,10 @@ public class GrapplingCamera : MonoBehaviour
     private Rigidbody rbody;
     private Vector3 grapplingPos;
 	
-	private void Start()
+	private void OnEnable()
 	{
         rbody = GetComponent<Rigidbody>();
-
+		rbody.useGravity = true;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 	}

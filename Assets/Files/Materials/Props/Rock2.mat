@@ -89,8 +89,8 @@ Material:
     - _SpecSmooth: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SteepnessBlend: 0.2
-    - _SteepnessThreshold: 0.259
+    - _SteepnessBlend: 0.1
+    - _SteepnessThreshold: 0.402
     - _Test: -0.13
     - _ToonSteps: 3
     - _UVSec: 0
