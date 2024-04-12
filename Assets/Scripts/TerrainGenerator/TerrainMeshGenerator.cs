@@ -190,7 +190,7 @@ public class TerrainMeshGenerator : MonoBehaviour
 
         foreach(Vector3 pos in offsets){
             float distance = Vector3.Distance(FloatingOrigin.Invert(pos), camPosition);
-            if (distance > tileProfile.size*generatingRange*2f){
+            if (distance > tileProfile.size*generatingRange*1.3f){
                 Destroy(activeTiles[pos].gameObject);
                 activeTiles.Remove(pos);
             }
