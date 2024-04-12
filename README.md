@@ -1,6 +1,6 @@
 # Realtime Terrain Generation
 
- A simple realtime-endless terrain generation for Unity.
+ A simple realtime-endless terrain generation for Unity 2020.
 
 ![Screenshot](/Assets/Files/Screenshots/Screenshot2.jpg?raw=true "Screenshot")
 
@@ -10,7 +10,7 @@ Finding no simple solution to generate realtime and performant terrains in Unity
 
 It's a pretty rudimentary way, which generates chunks of terrains, with props (no grass for now).
 
-Terrains are shaped trough different layers of noises and have different LODs. 
+Terrains are shaped trough different layers of noise and have different LODs. 
 A shader in the project allows to draw a different texture on steep areas.
 
 ![Screenshot](/Assets/Files/Screenshots/Screenshot1.jpg?raw=true "Screenshot")
@@ -49,9 +49,13 @@ For Blender:
 - Still in edit mode, to verify vertices orders, check "Edit/Preferences/Interface/Developer Extras", next check enable "Indices" in this window
 
 ![Blender Viewport Overlays window](/Assets/Files/Screenshots/BlenderWindow.png?raw=true "Blender Viewport Overlays window")
+
 - Vertices must have this order:
 
 ![Blender Vertices Order](/Assets/Files/Screenshots/VerticesOrder.jpg?raw=true "Blender Vertices Order")
   
+- Now you can export your planes as FBX.
+- In your model import settings in unity, make sure to set "Mesh Compression" to "Off"
+
 
 
