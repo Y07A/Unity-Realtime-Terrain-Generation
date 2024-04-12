@@ -12,9 +12,8 @@ Finding no simple solution to generate realtime and performant terrains in Unity
 It's a pretty rudimentary way, which generates chunks of terrains, with props (no grass for now).
 
 Terrains are shaped trough different layers of noise and have different LODs. 
-A shader in the project allows to draw a different texture on steep areas.
 
-![Screenshot](/Assets/Files/Screenshots/Screenshot1.jpg?raw=true "Screenshot")
+A shader in the project allows to draw a different texture on steep areas.
 
 There is multiple examples in the project, with differents use cases and styles.
 
