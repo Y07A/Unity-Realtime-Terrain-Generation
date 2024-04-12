@@ -4,6 +4,8 @@
 
 ![Screenshot](/Assets/Files/Screenshots/Screenshot2.jpg?raw=true "Screenshot")
 
+Noise library: [https://github.com/Scrawk/Procedural-Noise]
+
 
 ## Introduction
 
