@@ -26,17 +26,6 @@ public class TerrainMeshGenerator : MonoBehaviour
         public float scaleMin, scaleMax;
     }
 
-    [System.Serializable]
-    public struct Structure{
-        public GameObject prefab;
-        public int count;
-        public NoiseUtils.NoiseType noiseType;
-        public int noiseSeed;
-        public float noiseFreq;
-        public Vector2 noiseScale;
-        public float scaleMin, scaleMax;
-    }
-
     public GameObject tilePrefab;
 
     public float seed;

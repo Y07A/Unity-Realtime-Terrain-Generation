@@ -81,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 4926287161048292381, guid: 5f5ef1668af1ba941b12c1c382b0b107, type: 3}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[0].countMax
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[0].countMin
@@ -89,15 +89,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[0].scaleMax
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
-      propertyPath: props.Array.data[0].scaleMin
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
+      propertyPath: props.Array.data[0].scaleMin
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[1].countMax
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[1].countMin
@@ -105,11 +105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[1].scaleMax
-      value: 400
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[1].scaleMin
-      value: 200
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: props.Array.data[0].noiseFreq
@@ -153,11 +153,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[0].weight
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[1].weight
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[2].weight
@@ -177,19 +177,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[0].noiseScale.x
-      value: 0.0001
+      value: 0.0002
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[0].noiseScale.y
-      value: 0.0001
+      value: 0.0002
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[1].noiseScale.x
-      value: 0.0005
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408707, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: heightLayers.Array.data[1].noiseScale.y
-      value: 0.0005
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 5295882330557408732, guid: 0b20d10f7ef62af42ba6c95583bcf732, type: 3}
       propertyPath: fogStart
