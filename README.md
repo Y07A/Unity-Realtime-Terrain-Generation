@@ -39,8 +39,16 @@ If you want to modify the resolution of it, you will need to use a 3d modeling s
 For Blender:
 - Import the TileLod.fbx into blender
 - Add/modify the resolution by subdividing/unsubdividing the planes
-- Rotate the view like this: ![Blender View](/Assets/Files/Screenshots/BlenderView.jpg?raw=true "Blender View")
+- Rotate the view like this:
+
+![Blender View](/Assets/Files/Screenshots/BlenderView.JPG?raw=true "Blender View")
 - In edit mode, go to "Mesh/Sort Elements../View Z Axis"
-- Still in edit mode, to verify vertices orders, check "Edit/Preferences/Interface/Developer Extras", next check enable "Indices" in this window ![Blender Viewport Overlays window](/relative/path/to/img.jpg?raw=true "Screenshot")
+- Still in edit mode, to verify vertices orders, check "Edit/Preferences/Interface/Developer Extras", next check enable "Indices" in this window
+
+![Blender Viewport Overlays window](/Assets/Files/Screenshots/BlenderWindow.png?raw=true "Blender Viewport Overlays window")
+- Vertices must have this order:
+
+![Blender Vertices Order](/Assets/Files/Screenshots/VerticesOrder.jpg?raw=true "Blender Vertices Order")
+  
 
 
