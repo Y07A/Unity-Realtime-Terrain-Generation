@@ -4,6 +4,7 @@
 
 ![Screenshot](/Assets/Files/Screenshots/Screenshot2.jpg?raw=true "Screenshot")
 
+
 ## Introduction
 
 Finding no simple solution to generate realtime and performant terrains in Unity, I created my own with caveman brain.
@@ -25,6 +26,7 @@ Everything is fully customizable.
 
 Feel free to use it in your games !
 
+
 ## How to use
 
 A few steps:
@@ -33,6 +35,7 @@ A few steps:
 - Set the tilePrefab to the Files/Prefabs/Tiles/TileLod prefab
 - Tweak the settings as you want
 - Add and setup AmbientSettings to control fog and skybox (Additional)
+
 
 ## Changing Terrain resolution
 
