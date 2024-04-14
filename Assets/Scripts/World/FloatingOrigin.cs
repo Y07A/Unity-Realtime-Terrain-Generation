@@ -8,10 +8,18 @@ public class FloatingOrigin : MonoBehaviour
     private static Vector3 offset;
     static FloatingOrigin instance;
 
+    [Header("Debug")]
+    public Vector3 worldPositionDebug;
+
     private void Start()
     {
         instance = this;
         StartCoroutine(Check());
+    }
+
+    private void Update()
+    {
+        worldPositionDebug = Apply(transform.position);
     }
 
     private IEnumerator Check()

@@ -129,7 +129,7 @@ public class TerrainMeshGenerator : MonoBehaviour
             tp.Apply();
         }
 
-        float propsRange = tile.GetComponent<TileLod>().propsRange*tileProfile.size;
+        float propsRange = tile.GetComponent<TileLod>().propsRange*(tileProfile.size-.1f);
 
         Vector3 camPosition = FloatingOrigin.Apply(Camera.main.transform.position);
         camPosition.y = 0f;
